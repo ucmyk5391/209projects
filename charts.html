@@ -1,0 +1,6494 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Altair-->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@5"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Social Media Usage and Emotional Well-Being</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+	    <div class="row row-cols-2 py-3">
+		<div class="col-sm">
+                    <h2>Demographics</h2>
+                    <p>These charts will let you explore different demographic variables and couplings. To begin, you can take a look at the variables individually. Next , you can observe grouping information and can filter information yourself.</p>
+                    <div class='tableauPlaceholder' id='viz1721962817258' style='position: relative'><noscript><a href='#'><img alt='Demographics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectDraft_17219625480350&#47;Demographics&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ProjectDraft_17219625480350&#47;Demographics' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjectDraft_17219625480350&#47;Demographics&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1721962817258');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                
+            	</div>
+            </div>
+
+            
+       <!--     <div class="row row-cols-2 py-3">
+                <div class="col-sm">
+                    
+                    <div id="altairChart"></div>
+                </div>
+       </div> -->
+
+      <div class="col-sm">
+        <h2>Dominant Emotion by Platform</h2>
+        <p>This dashboard allows you to visualize how dominant emotions are distributed across platforms. To begin, you can select and or hover over a category on the right and see the number of users reporting that specific emotion category by platform. </p>
+        <div class='tableauPlaceholder' id='viz1721549669027' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmotionbyPlatform&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EmotionbyPlatform&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmotionbyPlatform&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1721549669027');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+
+	    <div class="row row-cols-2 py-3">
+		    <div class="col-sm">
+                    <h2>Time Spent on Social Media </h2>
+                    <p>These charts provide a detailed analysis of the time spent on various social media platforms and its emotional impact. They illustrate the daily usage time by different genders, the types of interactions users engage in, and how this time is distributed across platforms like Facebook and Twitter. </p>
+                    <p>To start, you can select an emotion from the chart, and watch as the other graphs update to show data specific to that emotion.</p>
+                    <div class='tableauPlaceholder' id='viz1721505465530' style='position: relative'><noscript><a href='#'><img alt='Impacts of Time on Social Media ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ti&#47;time_spent_charts&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='time_spent_charts&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ti&#47;time_spent_charts&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1721505465530');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    
+                </div>
+             </div>
+
+	     <!--        </div> -->
+
+         <div class="row row-cols-2 py-3">
+                <div class="col-sm">
+	        <h2>Interactions </h2>
+                    <p>This chart will provide the dominant emotions based on average daily numbers for the different metrics you choose.</p>
+
+
+	  <div id="visone"></div>
+	  <script>
+	    (function(vegaEmbed) {
+	      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-be085d457f3f23227458b081255e44f4"}, "mark": "bar", "encoding": {"color": {"field": "Dominant_Emotion", "type": "nominal"}, "tooltip": [{"field": "Dominant_Emotion", "type": "nominal"}, {"field": "Metric", "type": "nominal"}, {"field": "Value", "type": "quantitative"}], "x": {"field": "Dominant_Emotion", "title": "Dominant Emotion", "type": "nominal"}, "y": {"field": "Value", "title": "Value", "type": "quantitative"}}, "selection": {"Metric": {"type": "single", "fields": ["Metric"], "bind": {"input": "select", "options": ["Age", "Daily_Usage_Time (minutes)", "Posts_Per_Day", "Likes_Received_Per_Day", "Comments_Received_Per_Day", "Messages_Sent_Per_Day"], "name": "Select Metric: "}}}, "title": "Average Daily Metrics by Dominant Emotion", "transform": [{"filter": {"selection": "Metric"}}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-be085d457f3f23227458b081255e44f4": [{"Dominant_Emotion": "Aggression", "Metric": "Age", "Value": 24.0}, {"Dominant_Emotion": "Anger", "Metric": "Age", "Value": 27.986754966887418}, {"Dominant_Emotion": "Anxiety", "Metric": "Age", "Value": 27.642857142857142}, {"Dominant_Emotion": "Boredom", "Metric": "Age", "Value": 30.24137931034483}, {"Dominant_Emotion": "Happiness", "Metric": "Age", "Value": 27.95020746887967}, {"Dominant_Emotion": "Neutral", "Metric": "Age", "Value": 25.352713178294575}, {"Dominant_Emotion": "Sadness", "Metric": "Age", "Value": 26.597989949748744}, {"Dominant_Emotion": "Aggression", "Metric": "Daily_Usage_Time (minutes)", "Value": 140.0}, {"Dominant_Emotion": "Anger", "Metric": "Daily_Usage_Time (minutes)", "Value": 90.50993377483444}, {"Dominant_Emotion": "Anxiety", "Metric": "Daily_Usage_Time (minutes)", "Value": 94.33035714285714}, {"Dominant_Emotion": "Boredom", "Metric": "Daily_Usage_Time (minutes)", "Value": 64.48275862068965}, {"Dominant_Emotion": "Happiness", "Metric": "Daily_Usage_Time (minutes)", "Value": 149.61410788381744}, {"Dominant_Emotion": "Neutral", "Metric": "Daily_Usage_Time (minutes)", "Value": 77.98449612403101}, {"Dominant_Emotion": "Sadness", "Metric": "Daily_Usage_Time (minutes)", "Value": 83.06532663316582}, {"Dominant_Emotion": "Aggression", "Metric": "Posts_Per_Day", "Value": 6.0}, {"Dominant_Emotion": "Anger", "Metric": "Posts_Per_Day", "Value": 3.728476821192053}, {"Dominant_Emotion": "Anxiety", "Metric": "Posts_Per_Day", "Value": 2.9732142857142856}, {"Dominant_Emotion": "Boredom", "Metric": "Posts_Per_Day", "Value": 1.5804597701149425}, {"Dominant_Emotion": "Happiness", "Metric": "Posts_Per_Day", "Value": 5.721991701244813}, {"Dominant_Emotion": "Neutral", "Metric": "Posts_Per_Day", "Value": 2.445736434108527}, {"Dominant_Emotion": "Sadness", "Metric": "Posts_Per_Day", "Value": 3.0452261306532664}, {"Dominant_Emotion": "Aggression", "Metric": "Likes_Received_Per_Day", "Value": 50.0}, {"Dominant_Emotion": "Anger", "Metric": "Likes_Received_Per_Day", "Value": 38.370860927152314}, {"Dominant_Emotion": "Anxiety", "Metric": "Likes_Received_Per_Day", "Value": 39.276785714285715}, {"Dominant_Emotion": "Boredom", "Metric": "Likes_Received_Per_Day", "Value": 15.718390804597702}, {"Dominant_Emotion": "Happiness", "Metric": "Likes_Received_Per_Day", "Value": 75.38589211618257}, {"Dominant_Emotion": "Neutral", "Metric": "Likes_Received_Per_Day", "Value": 27.13953488372093}, {"Dominant_Emotion": "Sadness", "Metric": "Likes_Received_Per_Day", "Value": 32.472361809045225}, {"Dominant_Emotion": "Aggression", "Metric": "Comments_Received_Per_Day", "Value": 21.0}, {"Dominant_Emotion": "Anger", "Metric": "Comments_Received_Per_Day", "Value": 18.5364238410596}, {"Dominant_Emotion": "Anxiety", "Metric": "Comments_Received_Per_Day", "Value": 15.1875}, {"Dominant_Emotion": "Boredom", "Metric": "Comments_Received_Per_Day", "Value": 7.126436781609195}, {"Dominant_Emotion": "Happiness", "Metric": "Comments_Received_Per_Day", "Value": 26.57261410788382}, {"Dominant_Emotion": "Neutral", "Metric": "Comments_Received_Per_Day", "Value": 10.744186046511627}, {"Dominant_Emotion": "Sadness", "Metric": "Comments_Received_Per_Day", "Value": 12.829145728643216}, {"Dominant_Emotion": "Aggression", "Metric": "Messages_Sent_Per_Day", "Value": 29.0}, {"Dominant_Emotion": "Anger", "Metric": "Messages_Sent_Per_Day", "Value": 22.60927152317881}, {"Dominant_Emotion": "Anxiety", "Metric": "Messages_Sent_Per_Day", "Value": 23.616071428571427}, {"Dominant_Emotion": "Boredom", "Metric": "Messages_Sent_Per_Day", "Value": 14.189655172413794}, {"Dominant_Emotion": "Happiness", "Metric": "Messages_Sent_Per_Day", "Value": 32.41908713692946}, {"Dominant_Emotion": "Neutral", "Metric": "Messages_Sent_Per_Day", "Value": 18.271317829457363}, {"Dominant_Emotion": "Sadness", "Metric": "Messages_Sent_Per_Day", "Value": 21.115577889447238}]}};
+	      var embedOpt = {"mode": "vega-lite"};
+
+	      function showError(el, error){
+	          el.innerHTML = ('<div class="error" style="color:red;">'
+	                          + '<p>JavaScript Error: ' + error.message + '</p>'
+	                          + "<p>This usually means there's a typo in your chart specification. "
+	                          + "See the javascript console for the full traceback.</p>"
+	                          + '</div>');
+	          throw error;
+	      }
+	      const el = document.getElementById('visone');
+	      vegaEmbed("#visone", spec, embedOpt)
+	        .catch(error => showError(el, error));
+	    })(vegaEmbed);
+	  </script>
+
+         <div class="row row-cols-2 py-3">
+                <div class="col-sm">
+                    <p>In the charts below, the first chart shows all metrics and emotions displayed in one graph.
+
+The second chart shows which emotions have the highest and lowest average daily usage times (which has the most data) across all users. With a specific metric chosen, in this case, 'average daily usage,' on the scatter plot below, we can draw insights about the relationship between usage time and metrics specifically.</p>
+
+	  <div id="vistwo"></div>
+	  <script>
+	    (function(vegaEmbed) {
+	      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "vconcat": [{"data": {"name": "data-be085d457f3f23227458b081255e44f4"}, "mark": "bar", "encoding": {"color": {"field": "Dominant_Emotion", "type": "nominal"}, "tooltip": [{"field": "Dominant_Emotion", "type": "nominal"}, {"field": "Metric", "type": "nominal"}, {"field": "Value", "type": "quantitative"}], "x": {"field": "Metric", "type": "nominal"}, "y": {"field": "Value", "type": "quantitative"}}, "title": "Average Daily Metrics by Dominant Emotion"}, {"data": {"name": "data-e3f151708584a5d94d60a14ce03af486"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "Dominant_Emotion", "type": "nominal"}, "tooltip": [{"field": "Dominant_Emotion", "type": "nominal"}, {"field": "Daily_Usage_Time (minutes)", "type": "quantitative"}], "x": {"field": "Dominant_Emotion", "title": "Dominant Emotion", "type": "nominal"}, "y": {"field": "Daily_Usage_Time (minutes)", "title": "Average Daily Usage Time (minutes)", "type": "quantitative"}}, "selection": {"selector007": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "title": "Average Daily Usage Time by Dominant Emotion"}], "resolve": {"scale": {"color": "independent"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-be085d457f3f23227458b081255e44f4": [{"Dominant_Emotion": "Aggression", "Metric": "Age", "Value": 24.0}, {"Dominant_Emotion": "Anger", "Metric": "Age", "Value": 27.986754966887418}, {"Dominant_Emotion": "Anxiety", "Metric": "Age", "Value": 27.642857142857142}, {"Dominant_Emotion": "Boredom", "Metric": "Age", "Value": 30.24137931034483}, {"Dominant_Emotion": "Happiness", "Metric": "Age", "Value": 27.95020746887967}, {"Dominant_Emotion": "Neutral", "Metric": "Age", "Value": 25.352713178294575}, {"Dominant_Emotion": "Sadness", "Metric": "Age", "Value": 26.597989949748744}, {"Dominant_Emotion": "Aggression", "Metric": "Daily_Usage_Time (minutes)", "Value": 140.0}, {"Dominant_Emotion": "Anger", "Metric": "Daily_Usage_Time (minutes)", "Value": 90.50993377483444}, {"Dominant_Emotion": "Anxiety", "Metric": "Daily_Usage_Time (minutes)", "Value": 94.33035714285714}, {"Dominant_Emotion": "Boredom", "Metric": "Daily_Usage_Time (minutes)", "Value": 64.48275862068965}, {"Dominant_Emotion": "Happiness", "Metric": "Daily_Usage_Time (minutes)", "Value": 149.61410788381744}, {"Dominant_Emotion": "Neutral", "Metric": "Daily_Usage_Time (minutes)", "Value": 77.98449612403101}, {"Dominant_Emotion": "Sadness", "Metric": "Daily_Usage_Time (minutes)", "Value": 83.06532663316582}, {"Dominant_Emotion": "Aggression", "Metric": "Posts_Per_Day", "Value": 6.0}, {"Dominant_Emotion": "Anger", "Metric": "Posts_Per_Day", "Value": 3.728476821192053}, {"Dominant_Emotion": "Anxiety", "Metric": "Posts_Per_Day", "Value": 2.9732142857142856}, {"Dominant_Emotion": "Boredom", "Metric": "Posts_Per_Day", "Value": 1.5804597701149425}, {"Dominant_Emotion": "Happiness", "Metric": "Posts_Per_Day", "Value": 5.721991701244813}, {"Dominant_Emotion": "Neutral", "Metric": "Posts_Per_Day", "Value": 2.445736434108527}, {"Dominant_Emotion": "Sadness", "Metric": "Posts_Per_Day", "Value": 3.0452261306532664}, {"Dominant_Emotion": "Aggression", "Metric": "Likes_Received_Per_Day", "Value": 50.0}, {"Dominant_Emotion": "Anger", "Metric": "Likes_Received_Per_Day", "Value": 38.370860927152314}, {"Dominant_Emotion": "Anxiety", "Metric": "Likes_Received_Per_Day", "Value": 39.276785714285715}, {"Dominant_Emotion": "Boredom", "Metric": "Likes_Received_Per_Day", "Value": 15.718390804597702}, {"Dominant_Emotion": "Happiness", "Metric": "Likes_Received_Per_Day", "Value": 75.38589211618257}, {"Dominant_Emotion": "Neutral", "Metric": "Likes_Received_Per_Day", "Value": 27.13953488372093}, {"Dominant_Emotion": "Sadness", "Metric": "Likes_Received_Per_Day", "Value": 32.472361809045225}, {"Dominant_Emotion": "Aggression", "Metric": "Comments_Received_Per_Day", "Value": 21.0}, {"Dominant_Emotion": "Anger", "Metric": "Comments_Received_Per_Day", "Value": 18.5364238410596}, {"Dominant_Emotion": "Anxiety", "Metric": "Comments_Received_Per_Day", "Value": 15.1875}, {"Dominant_Emotion": "Boredom", "Metric": "Comments_Received_Per_Day", "Value": 7.126436781609195}, {"Dominant_Emotion": "Happiness", "Metric": "Comments_Received_Per_Day", "Value": 26.57261410788382}, {"Dominant_Emotion": "Neutral", "Metric": "Comments_Received_Per_Day", "Value": 10.744186046511627}, {"Dominant_Emotion": "Sadness", "Metric": "Comments_Received_Per_Day", "Value": 12.829145728643216}, {"Dominant_Emotion": "Aggression", "Metric": "Messages_Sent_Per_Day", "Value": 29.0}, {"Dominant_Emotion": "Anger", "Metric": "Messages_Sent_Per_Day", "Value": 22.60927152317881}, {"Dominant_Emotion": "Anxiety", "Metric": "Messages_Sent_Per_Day", "Value": 23.616071428571427}, {"Dominant_Emotion": "Boredom", "Metric": "Messages_Sent_Per_Day", "Value": 14.189655172413794}, {"Dominant_Emotion": "Happiness", "Metric": "Messages_Sent_Per_Day", "Value": 32.41908713692946}, {"Dominant_Emotion": "Neutral", "Metric": "Messages_Sent_Per_Day", "Value": 18.271317829457363}, {"Dominant_Emotion": "Sadness", "Metric": "Messages_Sent_Per_Day", "Value": 21.115577889447238}], "data-e3f151708584a5d94d60a14ce03af486": [{"Dominant_Emotion": "Aggression", "Daily_Usage_Time (minutes)": 140.0}, {"Dominant_Emotion": "Anger", "Daily_Usage_Time (minutes)": 90.50993377483444}, {"Dominant_Emotion": "Anxiety", "Daily_Usage_Time (minutes)": 94.33035714285714}, {"Dominant_Emotion": "Boredom", "Daily_Usage_Time (minutes)": 64.48275862068965}, {"Dominant_Emotion": "Happiness", "Daily_Usage_Time (minutes)": 149.61410788381744}, {"Dominant_Emotion": "Neutral", "Daily_Usage_Time (minutes)": 77.98449612403101}, {"Dominant_Emotion": "Sadness", "Daily_Usage_Time (minutes)": 83.06532663316582}]}};
+	      var embedOpt = {"mode": "vega-lite"};
+
+	      function showError(el, error){
+	          el.innerHTML = ('<div class="error" style="color:red;">'
+	                          + '<p>JavaScript Error: ' + error.message + '</p>'
+	                          + "<p>This usually means there's a typo in your chart specification. "
+	                          + "See the javascript console for the full traceback.</p>"
+	                          + '</div>');
+	          throw error;
+	      }
+	      const el = document.getElementById('vistwo');
+	      vegaEmbed("#vistwo", spec, embedOpt)
+	        .catch(error => showError(el, error));
+	    })(vegaEmbed);
+	  </script>
+
+
+	   </div>
+	 </div>
+
+
+	<script>
+            // Assign the specification to a local variable vlSpec.
+            var vlVisSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 400
+    }
+  },
+  "data": {
+    "name": "data-3d20d0c7b89f680e4d9df53330e2fdff"
+  },
+  "datasets": {
+    "data-3d20d0c7b89f680e4d9df53330e2fdff": [
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 30,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 32,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Aggression",
+        "Gender": "Female"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Male"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 23,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 31,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 35,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 33,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Male"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Male"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Male"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Anger",
+        "Gender": "Female"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 22,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 28,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 34,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Boredom",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 25,
+        "Dominant_Emotion": "Happiness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Female"
+      },
+      {
+        "Age": 27,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 26,
+        "Dominant_Emotion": "Sadness",
+        "Gender": "Non-binary"
+      },
+      {
+        "Age": 29,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      },
+      {
+        "Age": 21,
+        "Dominant_Emotion": "Anxiety",
+        "Gender": "Female"
+      },
+      {
+        "Age": 24,
+        "Dominant_Emotion": "Neutral",
+        "Gender": "Female"
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Age",
+          "type": "quantitative"
+        },
+        "x": {
+          "aggregate": "count",
+          "field": "Dominant_Emotion",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Dominant_Emotion",
+          "type": "nominal"
+        }
+      },
+      "height": 500,
+      "mark": {
+        "tooltip": true,
+        "type": "bar"
+      },
+      "selection": {
+        "selector003": {
+          "bind": {
+            "input": "range",
+            "max": 35,
+            "min": 21,
+            "name": "Age",
+            "step": 1
+          },
+          "fields": [
+            "Age"
+          ],
+          "type": "single"
+        }
+      },
+      "title": "Slider Filtering",
+      "transform": [
+        {
+          "filter": {
+            "selection": "selector003"
+          }
+        }
+      ],
+      "width": 500
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Age",
+          "type": "quantitative"
+        },
+        "x": {
+          "aggregate": "count",
+          "field": "Dominant_Emotion",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Dominant_Emotion",
+          "type": "nominal"
+        }
+      },
+      "height": 500,
+      "mark": {
+        "tooltip": true,
+        "type": "bar"
+      },
+      "selection": {
+        "selector004": {
+          "bind": {
+            "input": "select",
+            "name": "Gender",
+            "options": [
+              "Female",
+              "Male",
+              "Non-binary"
+            ]
+          },
+          "fields": [
+            "Gender"
+          ],
+          "type": "single"
+        }
+      },
+      "title": "Dropdown Filtering",
+      "transform": [
+        {
+          "filter": {
+            "selection": "selector004"
+          }
+        }
+      ],
+      "width": 500
+    }
+  ]
+}
+            // Embed the visualization in the container with id `altairchart`
+             vegaEmbed('#altairChart', vlVisSpec)
+    	    // result.view provides access to the Vega View API
+                .then(result => console.log(result))
+                .catch(console.warn);
+
+        </script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>
+
